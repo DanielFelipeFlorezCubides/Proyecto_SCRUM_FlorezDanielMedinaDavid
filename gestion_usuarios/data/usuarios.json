@@ -1,3 +1,8 @@
-{
-    
-}
+[
+    {
+        "Name": "Daniel",
+        "Email": "danielflorez@gmail.com",
+        "Role": "user",
+        "Status": "active"
+    }
+]
