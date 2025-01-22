@@ -51,9 +51,10 @@ def mainMenu():
         except ValueError as e:
             print("Invalid option. Please choose a number between 1 and 7.")
 
-def storage(name, email, role, status):
+def storage(idNumber, name, email, role, status):
     data = read_file('usuarios.json')
     formato = {
+         "ID": idNumber,
         "Name": name,
         "Email": email,
         "Role": role,
