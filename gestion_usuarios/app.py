@@ -1,5 +1,5 @@
-from gestion_usuarios.usuarios import mainMenu
-from gestion_usuarios.usuarios import agregar
+from usuarios import mainMenu
+from agregar import agregar
 
 while True:
     match mainMenu():
